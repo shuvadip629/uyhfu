@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./inkyapparels.css">
+
+</head>
+<body>
+  <div class="header">
+    <img src="./iapp.png" height="10%" width="20%">
+    <br>
+    <div id="flex">
+    <img  src="./3apparel.png" height="10%" width="70%" class="img"> 
+    <h1 class="tag">Make 
+      Your<br>
+       
+      Custom <br>
+      Goodies</h1>
+      </div>
+    <h2 class="tag2">We are coming soon....</h2>
+    </div>
+
+    <br>
+    <h1><center>Grab Your Apparel</center></h1>
+
+    <br>
+    <br>
+    
+    <form action="/submit" class="form" method="post" enctype="text/plain">
+  <div class="Personal Details">
+      <div class="row row-cols-2">
+        <div class="col">
+          <caption><b>Name</b></caption>
+          <input type="text" class="form-control" name="name" id="name" placeholder="Name" aria-label="name">
+        </div>
+        <div class="col">
+          <caption><b>Email</b></caption>
+          <input type="email" class="form-control" name="email" id="email" placeholder="Email"  aria-label="Email">
+        </div>
+        <br>
+        <br>
+        <div class="col">
+          <caption><b>Ph no</b></caption>
+          <input type="text" class="form-control" name="ph no" placeholder="Ph no" aria-label="phone">
+        </div>
+        <div class="col">
+          <caption><b>City</b></caption>
+          <input type="text" class="form-control" name="city" placeholder="City" aria-label="City">
+        </div>
+      </div>
+  </div>
+  <br>
+  <br>
+  <div id="apparel">
+<div id="cont">
+  <div class="row">
+        <div class="col">
+          <label for="producttype" class="form-label"><b>Product Type</b></label>
+          <select id="producttype" name="producttype" class="form-select">
+            <option selected>Choose...</option>
+            <option>Inky T-shirt</option>
+            <option>Inky Hoodies</option>
+            <option>Inky Caps</option>
+            <option>Inky Goodies</option>
+           </select>
+               
+        </div>
+        </div>
+      </div>
+      <div id="cols">
+        <div class="row">
+          <div class="col">
+        
+        <label for="inputsize" class="form-label"><b>size</b></label>
+        <select id="inputsize" name="Size" class="form-select">
+          <option selected>Choose...</option>
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>Xl</option>
+          <option>XXL</option>
+            </select>
+            </div>
+             </div>
+             </div>
+             
+      
+      <div id="colss">
+        <div class="row">
+          <div class="col">
+        
+          <label for="inputquantity" class="form-label"><b>quantity</b></label>
+          <select id="inputquantity" name="quantity" class="form-select">
+            <option selected>Choose...</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          </div>
+          </div>
+           
+    
+  </div>
+  </div>
+  <br>
+    <br>
+    <div class="mb-3">
+        <label for="formFile" class="form-label"><b>Front Design</b></label>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+      <div class="mb-3">
+        <label for="formFile" class="form-label"><b>Back design</b></label>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+
+
+          <div class="col-10">
+            <label for="inputAddress" class="form-label"><b>Address</b></label>
+            <input type="text" class="form-control" name="Address" id="inputAddress" placeholder="1234 Main St" required>
+          </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label"><b>Address 2</b></label>
+          <input type="text" class="form-control" name="Address2" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        
+        <div class="col-md-4">
+          <label for="inputState" class="form-label"><b>State</b></label>
+          <select id="inputState" name="state" class="form-select">
+            <option selected>Choose...</option>
+            <option>West Bengal</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label"><b>Zip</b></label>
+          <input type="text" class="form-control" name="zipcode" id="inputZip" required>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+            <label class="form-check-label" for="gridCheck" >
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">submit</button>
+        </div>
+      </form>
+      
+
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
